@@ -46,7 +46,7 @@ func DescribeInstances(client *ec2.EC2) (*ec2.DescribeInstancesOutput, error) {
 
 func main() {
 
-	fmt.Println("Enter AWS Profile name (dev,ssdev etc)")
+	fmt.Println("Enter AWS Profile name (dev,ssdev etc)") //this profile name should match ~/.aws/credentials
 	var profile string
 	fmt.Scanln(&profile)
 
